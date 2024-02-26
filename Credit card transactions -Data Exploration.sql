@@ -1,3 +1,10 @@
+/*
+Credit card transactions Data Exploration 
+
+Skills used: CTE's, Windows Functions, Aggregate Functions, Case when.
+
+*/
+
 select * from credit_card_transcations
 --1- write a query to print top 5 cities with highest spends and their percentage contribution of total credit card spends 
 
