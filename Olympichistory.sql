@@ -1,3 +1,12 @@
+/*
+Olympics history Data Exploration 
+
+Skills used: CTE's, Windows Functions, Aggregate Functions, Case when,Joinst,sub-query
+
+*/
+
+
+
 --1 which team has won the maximum gold medals over the years.
 
 select top 1 team, count(distinct event) as cnt 
