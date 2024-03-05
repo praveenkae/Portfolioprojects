@@ -1,7 +1,3 @@
-select * from athlete_events
-select * from athletes
-
-
 --1 which team has won the maximum gold medals over the years.
 
 select top 1 team, count(distinct event) as cnt 
