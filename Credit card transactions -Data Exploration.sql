@@ -5,14 +5,14 @@ Skills used: CTE's, Windows Functions, Aggregate Functions, Case when.
 
 */
 
-select * from credit_card_transcations
+select * from credit_card_transactions
 --1- write a query to print top 5 cities with highest spends and their percentage contribution of total credit card spends 
 
  select top 5
  city,
  sum(amount) as total_spends,
  sum(amount)*100.0/(select sum(amount) from credit_card_transactions) as percentage_contribution
- from credit_card_transcations
+ from credit_card_transactions
  group by city
  order by total_spends desc;
 
